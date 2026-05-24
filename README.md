@@ -63,23 +63,33 @@ Prediction Output
 ## Repository Structure
 
 ```text
-Deep-Learning-Hub/
+deep-learning-hub-streamlit/
 │
 ├── README.md
 ├── requirements.txt
+├── app.py
 │
-├── apps/
-│   ├── app.py
+├── DNN/
+│   ├── images/
+│   ├── __init__.py
+│   └── dnn_main.py
 │
-├── models/
-│   ├── dnn_model.pkl
-│   ├── rnn_model.pkl
-│   ├── lstm_model.pkl
+├── LSTM/
+│   ├── images/
+│   ├── __init__.py
+│   └── simplelstm.py
 │
-├── tokenizers/
-│   ├── dnn_tokenizer.pkl
-│   ├── rnn_tokenizer.pkl
-│   └── lstm_tokenizer.pkl
+├── RNN/
+│   ├── images/
+│   ├── SMSSpamCollection.csv
+│   └── smsspam.py
+│
+├── dnn_model.pkl
+├── dnn_tokenizer.pkl
+├── lstm_model.pkl
+├── lstm_tokenizer.pkl
+├── rnn_model.pkl
+└── rnn_tokenizer.pkl
 │
 └── notebooks/
 ```
